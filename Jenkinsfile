@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Fetches the source code from your Git repository.
-                git 'https://your-git-repository.com/your-project.git'
+                git 'https://github.com/rameshbaw/TestProject1.git'
             }
         }
 
