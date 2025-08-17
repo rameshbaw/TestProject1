@@ -31,7 +31,7 @@ pipeline {
             steps {
                 // Executes the Selenium tests using the specified test project.
                 // The --logger parameter generates a test results file.
-                bat "dotnet test ${env.TEST_PROJECT_FILE} --configuration ${env.BUILD_CONFIGURATION} --no-build --logger \\"trx;LogFileName=test_results.trx\\""
+                bat "dotnet test ${env.TEST_PROJECT_FILE} --configuration ${env.BUILD_CONFIGURATION} --no-build --logger \\"trx;LogFileName=test_results.trx""
             }
         }
 
