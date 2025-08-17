@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         // Defines the name of the .NET solution file.
-        SOLUTION_FILE = 'YourSolutionName.sln'
+        SOLUTION_FILE = 'TestProject1.sln'
         // Defines the name of the test project.
-        TEST_PROJECT_FILE = 'YourTestProject/YourTestProject.csproj'
+        TEST_PROJECT_FILE = 'TestProject1/TestProject1.csproj'
         // Defines the configuration for building the project.
         BUILD_CONFIGURATION = 'Release'
     }
